@@ -50,6 +50,7 @@ public class UserServlet extends HttpServlet {
                 writer.println("<html>");
                 writer.println("<head><title>用户中心</title></head>");
                 writer.println("<body>");
+                writer.println("<p><img src=\"./user.jpeg\" /></p>");
                 writer.println("<p>用户名：" + user.getUserName() + "</p>");
                 writer.println("<p>用户说明：" + user.getUserDesc() + "</p>");
                 writer.println("</body>");
